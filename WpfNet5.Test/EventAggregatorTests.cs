@@ -32,9 +32,9 @@ namespace WpfNet5.Test
             int subscribedEvents = 0;
 
             //Act
+            eventAggregator.GetEvent<TestEvent>().Subscribe(e => subscribedEvents++);
             eventAggregator.Publish(event1);
             eventAggregator.Publish(event2);
-            eventAggregator.GetEvent<TestEvent>().Subscribe(e => subscribedEvents++);
 
             //Assert
             Assert.Equal(2, subscribedEvents);
