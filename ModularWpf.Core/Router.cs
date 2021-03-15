@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace WpfNet5.Core
+namespace ModularWPF.Core
 {
     public class Router : UserControl
     {

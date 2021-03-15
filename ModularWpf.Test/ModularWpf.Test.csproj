@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\WpfNet5.Core.csproj" />
+    <ProjectReference Include="..\ModularWpf.Core\ModularWpf.Core.csproj" />
   </ItemGroup>
 
 </Project>

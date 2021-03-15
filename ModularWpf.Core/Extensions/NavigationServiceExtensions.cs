@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using WpfNet5.Core.Services;
+using ModularWPF.Core.Services;
 
-namespace WpfNet5.Core.Extensions
+namespace ModularWPF.Core.Extensions
 {
     public static class NavigationServiceExtensions
     {

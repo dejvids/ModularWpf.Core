@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace WpfNet5.Core.Extensions
+namespace ModularWPF.Core.Extensions
 {
     public static class AppModuleExtensions
     {

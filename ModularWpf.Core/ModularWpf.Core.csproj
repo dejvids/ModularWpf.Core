@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
-    <PackageProjectUrl>https://github.com/dejvids/WPFNet5.Core</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/dejvids/WPFNet5.Core</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/dejvids/ModularWPF.Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dejvids/ModularWPF.Core</RepositoryUrl>
     <Authors>Dawid Suryś</Authors>
     <Company />
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>

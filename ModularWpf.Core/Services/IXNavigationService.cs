@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 
-namespace WpfNet5.Core.Services
+namespace ModularWPF.Core.Services
 {
     public interface IXNavigationService
     {

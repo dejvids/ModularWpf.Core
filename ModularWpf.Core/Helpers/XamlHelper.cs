@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Media;
 
-namespace WpfNet5.Core.Helpers
+namespace ModularWPF.Core.Helpers
 {
     public static class XamlHelper
     {

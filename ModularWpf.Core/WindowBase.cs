@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace WpfNet5.Core
+namespace ModularWPF.Core
 {
     public class WindowBase : Window
     {

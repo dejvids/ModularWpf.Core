@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Threading.Tasks;
 
-namespace WpfNet5.Core
+namespace ModularWPF.Core
 {
     public class ViewModelBase<TParam>  : ViewModelBase
     {

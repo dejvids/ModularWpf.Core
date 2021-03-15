@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfNet5.Core.Extensions
+namespace ModularWPF.Core.Extensions
 {
     public static class EventAggregatorExtensions
     {

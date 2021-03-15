@@ -3,7 +3,7 @@ using System.Linq;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
 
-namespace WpfNet5.Core
+namespace ModularWPF.Core
 {
     public class EventAggregator : IEventAggregator
     {

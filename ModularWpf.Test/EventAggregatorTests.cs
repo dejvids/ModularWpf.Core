@@ -1,8 +1,8 @@
 using System;
-using WpfNet5.Core;
+using ModularWPF.Core;
 using Xunit;
 
-namespace WpfNet5.Test
+namespace ModularWPF.Test
 {
     public class EventAggregatorTests
     {

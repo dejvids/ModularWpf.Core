@@ -2,7 +2,7 @@
 using System;
 using System.IO;
 
-namespace WpfNet5.Core.Extensions
+namespace ModularWPF.Core.Extensions
 {
     public static class ConfigurationExtensions
     {

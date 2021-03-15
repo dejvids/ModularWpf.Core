@@ -7,7 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace WpfNet5.Core.Services
+namespace ModularWPF.Core.Services
 {
     public class XNavigationService : ReactiveObject, IXNavigationService
     {

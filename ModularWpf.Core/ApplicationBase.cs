@@ -3,10 +3,10 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.IO;
 using System.Windows;
-using WpfNet5.Core.Extensions;
-using WpfNet5.Core.Services;
+using ModularWPF.Core.Extensions;
+using ModularWPF.Core.Services;
 
-namespace WpfNet5.Core
+namespace ModularWPF.Core
 {
     public class ApplicationBase : Application
     {
@@ -66,6 +66,10 @@ namespace WpfNet5.Core
             }
 
             m_configBuilder.AddAppSettingsJson();
+
+            Configuration = m_configBuilder.Build();
+
+            m_services.AddSingleton(Configuration);
         }
     }
 }

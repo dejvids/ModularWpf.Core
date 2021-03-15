@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WpfNet5.Core
+namespace ModularWPF.Core
 {
     public interface IEventAggregator
     {
