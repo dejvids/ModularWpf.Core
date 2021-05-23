@@ -19,7 +19,7 @@ namespace ModularWPF.Core.Extensions
             config.SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
-            if(envornmentSpecific)
+            if(envornmentSpecific && !string.IsNullOrEmpty(environment))
                 config.AddJsonFile($"appsettings.{environment}.json", optional: false, reloadOnChange: true);
             return config;
         }
