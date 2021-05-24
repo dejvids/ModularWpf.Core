@@ -14,7 +14,7 @@ namespace ModularWPF.Core.Extensions
         /// <returns></returns>
         public static IConfigurationBuilder AddAppSettingsJson(this IConfigurationBuilder config, bool envornmentSpecific = true)
         {
-            string environment = Environment.GetEnvironmentVariable("ASPNET_CORE_ENVIRONMENT");
+            string environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 
             config.SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);

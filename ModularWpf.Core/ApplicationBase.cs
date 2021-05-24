@@ -40,9 +40,9 @@ namespace ModularWPF.Core
             if (m_services == null)
             {
                 m_services = new ServiceCollection();
-
-                builder.Invoke(m_services);
             }
+
+            builder.Invoke(m_services);
         }
 
         protected void ConfigureConfiguration(Action<IConfigurationBuilder> builder)
@@ -56,20 +56,14 @@ namespace ModularWPF.Core
             }
 
             builder.Invoke(m_configBuilder);
+
+            Configuration = m_configBuilder.Build();
         }
 
         protected void SetDefaultConfiguration()
         {
-            if (m_configBuilder == null)
-            {
-                m_configBuilder = new ConfigurationBuilder();
-            }
-
-            m_configBuilder.AddAppSettingsJson();
-
-            Configuration = m_configBuilder.Build();
-
-            m_services.AddSingleton(Configuration);
+            ConfigureConfiguration(builder => builder.AddAppSettingsJson());
+            ConfigureServices(services => services.AddSingleton(Configuration));
         }
     }
 }
